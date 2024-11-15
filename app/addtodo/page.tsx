@@ -1,4 +1,4 @@
 "use client"
 
-import { AddToDo } from "@/pages/addtodos"
+import  AddToDo  from "@/mypages/addtodos"
 export default AddToDo

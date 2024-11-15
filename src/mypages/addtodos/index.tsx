@@ -4,8 +4,9 @@ import ToDoPage from './ui/AddToDoPage';
 import store from '@/store';
 import { Provider } from 'react-redux';
 
-export const AddToDo = () => {
+const AddToDo = () => {
   return (
     <Provider store={store}> <ToDoPage /></Provider>
   )
 }
+export default AddToDo

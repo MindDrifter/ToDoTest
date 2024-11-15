@@ -1,4 +1,4 @@
 "use client"
 
-import { Home } from "@/pages/home"
+import Home from "@/mypages/home"
 export default Home

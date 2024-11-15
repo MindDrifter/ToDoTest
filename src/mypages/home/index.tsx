@@ -4,8 +4,9 @@ import HomePage from './ui/HomePage';
 import store from '@/store';
 import { Provider } from 'react-redux';
 
-export const Home = () => {
+const Home = () => {
   return (
     <Provider store={store}> <HomePage /></Provider>
   )
 }
+export default Home
