@@ -41,6 +41,7 @@ export const TaskInput = () => {
   const dispath = useDispatch<AppDispatch>()
   const handleFromSubmit = ({ title }: formData) => {
     dispath(addTodoToList({ title: title }))
+    localStorage.removeItem('todoDraft')
     redirect('/')
   }
 
